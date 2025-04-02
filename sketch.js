@@ -31,11 +31,11 @@ function desenhaLinhaDeChegada() {
 }
 
 function verificaVencedor() {
-  if (xJogador1 > 350) {
+  if (xJogador1 > 290) {
     text("Jogador 1 venceu!", 50, 200);
     noLoop();
   }
-  if (xJogador2 > 350) {
+  if (xJogador2 > 290) {
     text("Jogador 2 venceu!", 50, 200);
     noLoop();
   }
